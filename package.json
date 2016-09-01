@@ -1,0 +1,18 @@
+{
+  "name": "collector",
+  "version": "1.0.0",
+  "description": "COLLECTOR\r --------------------------------------\r A responsive web app for managing your collection of anything you want!\r --------------------------------------\r Basic functions\r 1. login with facebook\r 2. upload image of your newest item in your collection\r 3. add/update/delete details of your newest item \r 4. delete photo\r --------------------------------------\r Other features\r - share on facebook\r - check if you have an item in your collection by comparing a photo/name\r - if you don't have a notebook, add to your wishlist\r - in wishlist write details about price, website, location, etc.\r --------------------------------------\r Semantics\r - wordpress blog style\r - responsive\r - less text, more images\r - login page --> upload image/view gallery\r - upload image --> add post page\r - view gallery --> gallery page\r --------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "1.9.0",
+    "gulp-concat": "2.4.2",
+    "gulp-rename": "1.2.0",
+    "gulp-uglify": "1.0.2"
+  }
+}
